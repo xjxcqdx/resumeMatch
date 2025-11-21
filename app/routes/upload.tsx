@@ -18,6 +18,8 @@ const Upload = () => {
         setFile(file)
     }
 
+
+
     const handleAnalyze = async ({ companyName, jobTitle, jobDescription, file }: { companyName: string, jobTitle: string, jobDescription: string, file: File  }) => {
         setIsProcessing(true);
 
